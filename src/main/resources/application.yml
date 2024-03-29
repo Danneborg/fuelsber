@@ -1,0 +1,12 @@
+spring:
+#  jpa:
+#    database: POSTGRESQL
+#    show-sql: true
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/SBER_FUEL
+#    username: postgres
+#    password: postgres
+#    driverClassName: org.postgresql.Driver
+  liquibase:
+    enabled: true
+    change-log: classpath:db/changelog/changelog-master.xml
