@@ -16,8 +16,8 @@ import javax.persistence.Table;
 import java.util.List;
 
 @Data
-//@Entity
-//@Table(name = "column")
+@Entity
+@Table(name = "column")
 @NoArgsConstructor
 public class ColumnEntity {
 

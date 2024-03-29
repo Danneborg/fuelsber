@@ -14,8 +14,8 @@ import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Data
-//@Entity
-//@Table(name = "fuel")
+@Entity
+@Table(name = "fuel")
 @NoArgsConstructor
 public class FuelEntity {
 
